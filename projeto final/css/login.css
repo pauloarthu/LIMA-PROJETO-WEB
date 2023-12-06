@@ -1,0 +1,143 @@
+body {
+    background-color: #bbd5c8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 10%;
+}
+nav {
+    margin-left: 54%;
+}
+#titleimg {
+    height: 100px;
+}
+#login {
+    text-decoration: none;
+    color: black;
+}
+/*começo do menu*/
+#seta-menu {
+    margin-top: -30px;
+    height: 80px;
+    width: 80px;
+}
+.texts-menu {
+    position: fixed;
+}
+.botoes {
+    position: fixed;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    margin-top: 130px;
+    margin-left: -130px;
+    width: 200px;
+    height: 350px;
+    background-color: #ff3131;
+    -webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s, margin-left 1s;
+    transition: width 1s, height 1s, background-color 1s, transform 1s, margin-left 1s;
+}
+.botoes:hover {
+    background-color: #ffa5a5;
+    margin-left: 0px;
+    width: 500px;
+    height: 500px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.botoescor {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border:10px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 5%;
+    text-decoration: none;
+    color: black;
+}
+#menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.botoescor:hover {
+    transform: scale(1.10);
+    transition-duration: 500ms;
+}
+#calendariotitle {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/*fim do menu*/
+/*parte do conteudo do site*/
+
+#loginconteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at 50% 50%, #ffffff 0, #ffffff 16.67%,
+     #ffffff 33.33%, #ffffff 50%, #e4efec 66.67%, #cee1d9 83.33%, #bbd5c8 100%);
+    margin-top: 20px;
+    padding: 80px 0px;
+    margin-left: 600px;
+    margin-right: 500px;
+    border-radius: 40px;
+}
+.formLogin a:hover {
+    color: #ffffff;
+}
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.btn:hover {
+    scale: 1.2;
+    transition-duration: 500ms;
+    background-color: #000000;
+    color: #ffffff;
+}
+.nomesenha {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#esquecisenha {
+    margin-top: 20px;
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e50000;
+    margin-top: 6%;
+    padding: 50px 0px;
+}
+.textrodape {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+.textrodape:hover {
+    color: white;
+}

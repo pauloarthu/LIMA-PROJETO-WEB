@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+body {
+    background: rgb(193,0,255);
+background: linear-gradient(90deg, rgba(193,0,255,1) 15%, rgba(227,125,255,1) 58%);
+font-family: milonga;
+}
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#paragrafo {
+    margin-top: -45px;
+    margin-left: 122px;
+    color: white;
+}
+.link {
+    display: flex;
+    justify-content: space-evenly;
+}
+#sobre {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#catalogo {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#ajuda {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#login {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+}
+/*tabela do canto direito da telas*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 150px;
+}
+.dropdown-conteudo a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-conteudo a:hover {
+    background-color: #d6d6d6;
+}
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+#buscar {
+    padding: 10px 350px;
+}
+#pc {
+    height: 50px;
+}
+#versao {
+    margin-left: 1108px;
+    margin-top: -16px;
+}
+.login {
+    margin-top: 20px;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 32%, rgba(222,222,222,1) 87%);
+    border-radius: 40px;
+    padding: 120px 0px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.meuspedidos {
+    display: flex;
+    justify-content: center;
+}
+#meuspedidos {
+    font-size: 40px;
+}
+.imagem {
+    display: flex;
+    flex-direction: column;
+}
+#img {
+    height: 250px;
+    width: 250px;
+    margin-left: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+#preço {
+    background-color: antiquewhite;
+    border: 10px solid antiquewhite;
+    border-radius: 10px;
+    margin-right: 1140px;
+    margin-left: 280px;
+}
+#cartão {
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    margin-top: -339px;
+    margin-left: 950px;
+    height: 300px;
+    width: 500px;
+}
+.comprar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#confirmar {
+    padding: 10px 600px;
+    background-color: white;
+    border-radius: 15px;
+}
+#confirmar:hover {
+    background-color: rgb(255, 239, 218);
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+#formasdepagamento {
+    margin-left: 1090px;
+}
+#produto {
+    margin-left: 300px;
+    margin-top: -51px;
+}
+#buuton {
+    margin-top: 10px;
+    margin-left: 960px;
+    margin-right: 400px;
+    border-radius: 10px;
+    border: solid white;
+    background-color: white;
+}
+#PersonaBags {
+    text-decoration: none;
+    color: black;
+}

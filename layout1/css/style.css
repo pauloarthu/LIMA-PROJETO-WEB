@@ -1,0 +1,110 @@
+.title {
+    background-color: orange;
+    padding: 60px 20px;
+}
+/*codigo para o "opições"*/
+.droptn {
+    background-color: cyan;
+    color: white;
+    padding: 16px;
+    font-size: px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 1350px;
+    top: -40px;
+}
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: rgb(227, 129, 0);
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-conteudo a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-conteudo a:hover {
+    background-color: #ccc;
+}
+.dropdown:hover  .dropdown {
+    background-color: deeppink;
+}
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+/*esclamação botao para levar a pagina de erro*/
+.esclamação {
+    margin-left: 400px;
+}
+.esclamação {
+    margin-top: -70px;
+}
+/*carrinho de compras*/
+.carrinho {
+    margin-left: 1240px;
+    margin-top: -60px;
+}
+/*barra de pesquisa*/
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:250px;
+  }
+  #btnBusca {
+    width: 28px;
+  }
+#divBusca {
+    margin-left: 900px;
+    margin-top: -90px;
+}
+/*casa para direcionar para pagina de login*/
+.casa {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#casalogin {
+    margin-top: 0px;
+    margin-left: 14px;
+}
+/*escolher o ano*/
+.em {
+    background-color: orange;
+    margin-left: 700px;
+    margin-top: -40px;
+}
+/*codigo para itens de compra*/
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.imagenslinha2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+img:hover{
+    border: 5px solid black;
+    padding: -5px -5px;
+}

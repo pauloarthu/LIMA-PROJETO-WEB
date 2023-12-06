@@ -1,0 +1,79 @@
+.title {
+    background-color: orange;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/*codigo para o "opições"*/
+.droptn {
+    background-color: cyan;
+    color: white;
+    padding: 16px;
+    font-size: px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: rgb(227, 129, 0);
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-conteudo a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-conteudo a:hover {
+    background-color: #ccc;
+}
+.dropdown:hover  .dropdown {
+    background-color: deeppink;
+}
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+
+/*parte que acaba o codigo de header*/
+.pagamento {
+    margin-top: 50px;
+}
+#metodo {
+    margin-left: 150px
+}
+
+.preço {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(184, 184, 184);
+    color: black;
+    padding: 50px 50px;
+    margin-left: 600px;
+    margin-top: -340px;
+}
+.botao {
+    margin-left: 920px;
+}
+#cor {
+    background-color: rgb(161, 161, 161);
+    border-radius: 15px;
+    padding: 0px 50px;
+}
+.botaoalterar {
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 10px 40px;
+}
+#corbotao {
+    border-radius: 15px;
+}
+
+img:hover{
+    border: 5px solid black;
+}

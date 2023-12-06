@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+body {
+    background: rgb(193,0,255);
+background: linear-gradient(90deg, rgba(193,0,255,1) 15%, rgba(227,125,255,1) 58%);
+font-family: milonga;
+}
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#paragrafo {
+    margin-top: -45px;
+    margin-left: 122px;
+    color: white;
+}
+.link {
+    display: flex;
+    justify-content: space-evenly;
+}
+#sobre {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#catalogo {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#ajuda {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#login {
+    background-color: rgb(14, 191, 255);
+    border:10px solid rgb(14, 191, 255);
+    border-radius: 10px;
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+/*tabela do canto direito da telas*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 150px;
+}
+.dropdown-conteudo a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-conteudo a:hover {
+    background-color: #d6d6d6;
+}
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+#buscar {
+    padding: 10px 350px;
+}
+#pc {
+    height: 50px;
+}
+#versao {
+    margin-left: 1115px;
+    margin-top: -16px;
+}
+.informacoes {
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 71%, rgba(236,236,236,1) 100%);
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#informacoes {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.hr {
+    background-color: rgb(0, 0, 255);
+    padding: 1px 0px;   
+}
+.quadrado {
+    position: absolute;
+    margin-top: -226px;
+    margin-left: 775px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado1 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 775px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado2 {
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 775px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado3 {
+    position: absolute;
+    margin-top: -59px;
+    margin-left: 775px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado4 {
+    position: absolute;
+    margin-top: -59px;
+    margin-left: 190px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado5 {
+    position: absolute;
+    margin-top: -114px;
+    margin-left: 190px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado6 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 190px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.quadrado7 {
+    position: absolute;
+    margin-top: -226px;
+    margin-left: 190px;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 100%;
+    background-color: blue;
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+.circulo {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 0px;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    border-radius: 50%;
+    opacity: 20%;
+    background-color: rgb(0, 168, 224);
+}
+.quadrado9 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1200px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgb(0,157,255),hs1(309, 60%, 66%));
+    opacity: 30%;
+    background-color: rgb(214, 255, 29);
+}
+#PersonaBags {
+    text-decoration: none;
+    color: black;
+}
